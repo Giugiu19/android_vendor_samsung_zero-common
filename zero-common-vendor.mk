@@ -84,8 +84,8 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/system/lib/hw/camera.vendor.exynos5.so:system/lib/hw/camera.vendor.exynos5.so \
-    $(LOCAL_PATH)/system/lib64/hw/camera.vendor.exynos5.so:system/lib64/hw/camera.vendor.exynos5.so \
+    $(LOCAL_PATH)/system/lib/hw/camera.exynos5.so:system/lib/hw/camera.exynos5.so \
+    $(LOCAL_PATH)/system/lib64/hw/camera.exynos5.so:system/lib64/hw/camera.exynos5.so \
     $(LOCAL_PATH)/system/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
     $(LOCAL_PATH)/system/lib64/libcamera_metadata.so:system/lib64/libcamera_metadata.so \
     $(LOCAL_PATH)/system/lib/libexynoscamera3.so:system/lib/libexynoscamera3.so \
