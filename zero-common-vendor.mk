@@ -134,6 +134,10 @@ PRODUCT_COPY_FILES += \
 # CPBoot Daemon
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/sbin/cbd:system/bin/cbd
+    
+# VoLTE
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/system/bin/imsd:system/bin/imsd    
 
 # ConsumerIR
 PRODUCT_COPY_FILES += \
